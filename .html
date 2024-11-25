@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kharcha Pani</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحِيمِ</h1>
+    <form id="expenseForm">
+        <label for="khana">Daily Khana:-</label>
+        <input type="number" id="khana" name="khana" placeholder="Rs. 500/-"><br><br>
+
+        <label for="petrol">Daily Petrol:-</label>
+        <input type="number" id="petrol" name="petrol" placeholder="Rs. 300/-"><br><br>
+        
+        <label for="packages">Monthly Packages:-</label>
+        <input type="number" id="packages" name="packages" placeholder="Rs. 500/-"><br><br>
+        
+        <label for="bills">Monthly Bills:-</label>
+        <input type="number" id="bills" name="bills" placeholder="Rs. 8000/-"><br><br>
+        
+        <label for="kapray">Kapray per 2 Months:-</label>
+        <input type="number" id="kapray" name="kapray" placeholder="Rs. 3000/-"><br><br>
+        
+        <label for="jhootay">Jhootay per 2 Months:-</label>
+        <input type="number" id="jhootay" name="jhootay" placeholder="Rs. 2000/-"><br><br>
+
+        <button type="button" id="calculateBtn">Calculate Total Expense Per Year</button>
+    </form>
+    <h2 id="monthly"></h2>
+    <h2 id="yearly"></h2>
+
+    <script src="kharcha_pani.js" defer></script>
+</body>
+</html>
